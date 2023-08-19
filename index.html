@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros Zero</title>
+</head>
+<body style="background-color: burlywood;">
+    <h1 style="text-align: center;">Carros Zero</h1>   
+    <h3>Seja muito bem-vindo ao nosso universo automotivo! Aqui, no nosso site de venda de carros, 
+        você está prestes a embarcar em uma emocionante jornada pelo mundo dos automóveis. Com uma 
+        ampla e cuidadosamente selecionada variedade de veículos, estamos ansiosos para ajudá-lo a 
+        encontrar o carro dos seus sonhos. Explore, descubra e prepare-se para encontrar a combinação 
+        perfeita de estilo, desempenho e inovação. Sinta-se em casa enquanto navega através de opções 
+        que redefinem a experiência de dirigir. Seu futuro automóvel começa aqui.</h3>
+    <img style="width: 100vw; height: auto;" src="bmw.jpg" alt="">
+
+    <form action="/index.html">
+        <label for="carros"><b>Insira o modelo do veiculo:</b></label>
+        <input type="text" name="carros" required>
+        <p></p>
+        <label for="valor"><u>Valor estimado:</u></label>
+        <input type="number" name="valor" min="0" max="100000">
+        <p></p>
+        <label for="nome"><b>Nome:</b></label>
+        <input type="text" name="nome" required>
+        <p></p>
+        <label for="sobrenome"><b>Sobrenome:</b></label>
+        <input type="text" name="sobrenome" maxlength="50" required>
+        <p></p>
+        <label for="data-nascimento"><b>Data de Nascimento:</b></label>
+        <input type="date" name="data-nascimento">
+        <p></p>
+        <label for="email"><i><b>E-mail:</b></i></label>
+        <input type="email" name="email" required>
+        <p></p>
+        <label for="telefone"><b>Telefone:</b></label>
+        <input type="tel" name="telefone">
+        <p></p>
+        <label for="cpf"><b>CPF</b></label>
+        <input type="text" name="cpf" minlength="11" maxlength="11" required>
+        <p></p>
+        <button type="submit">Enviar</button>
+        <p></p>
+        <a href="index.html">Voltar ao menu</a>
+    </form>
+    <p></p>
+    <table style="background-color: #FFFFFF;">
+        <tr>
+            <th>Nome</th>
+            <th>CPF</th>
+            <th>Telefone</th>
+        </tr>
+        <tr>
+            <td>Athos</td>
+            <td>14214192483</td>
+            <td>99485-6432</td>
+        </tr>
+        <tr>
+            <td>Athos</td>
+            <td>14214192483</td>
+            <td>99485-6432</td>
+        </tr>
+        <tr>
+            <td>Athos</td>
+            <td>14214192483</td>
+            <td>99485-6432</td>
+        </tr>
+    </table>
+    <p></p>
+</html>
+
+<style>
+    table, th, td {
+  border: 1px solid;
+}
+
+</style>
+
+<!-- <b></b> ou <strong></strong> Negrito
+<i></i> Italico
+<u></u> Sublinhado -->
